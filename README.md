@@ -4,5 +4,5 @@
 
 
 
-Ajout d'une nouvelle `develop`, utilisé dans les phases de dévelopmment de la
+Ajout d'une nouvelle branche `develop`, utilisé dans les phases de dévelopmment de la
 distribution
