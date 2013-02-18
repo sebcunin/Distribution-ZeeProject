@@ -23,6 +23,7 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 dependencies[] = locale
+dependencies[] = syslog
 
 
 ; en plus pour la distribution ZeeProjet
