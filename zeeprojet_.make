@@ -40,10 +40,10 @@ projects[] = workbench
 ; Mediatheque
 projects[] = media
 projects[] = file_entity
-projects[] = wysiwyg
 
 ;localisation
 projects[] = i18n
+projects[] = variable
 projects[] = l10n_update
 
 
