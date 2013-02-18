@@ -63,6 +63,10 @@ dependencies[] = features
 dependencies[] = context
 
 
+dependencies[] = role_delegation
+
+
+
 ; Information added by drush on 2013-02-18
 version = "develop-dev"
 project = "zeeprojet"

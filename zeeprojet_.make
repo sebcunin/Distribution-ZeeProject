@@ -50,6 +50,8 @@ projects[] = variable
 projects[] = l10n_update
 
 
+
+projects[] = role_delegation
 ; Themes
 projects[] = zen
 

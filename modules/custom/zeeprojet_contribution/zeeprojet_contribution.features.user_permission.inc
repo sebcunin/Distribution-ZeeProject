@@ -92,6 +92,25 @@ function zeeprojet_contribution_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: assign contributeur role.
+  $permissions['assign contributeur role'] = array(
+    'name' => 'assign contributeur role',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'zee_member',
+    ),
+    'module' => 'role_delegation',
+  );
+
+  // Exported permission: assign zee_member role.
+  $permissions['assign zee_member role'] = array(
+    'name' => 'assign zee_member role',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'role_delegation',
+  );
+
   // Exported permission: bypass file access.
   $permissions['bypass file access'] = array(
     'name' => 'bypass file access',

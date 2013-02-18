@@ -78,7 +78,7 @@ function zee_content_field_default_fields() {
           'summary_rows' => 5,
         ),
         'type' => 'text_textarea_with_summary',
-        'weight' => '31',
+        'weight' => 31,
       ),
     ),
   );
@@ -164,6 +164,7 @@ function zee_content_field_default_fields() {
           'allowed_types' => array(
             0 => 'image',
           ),
+          'browser_plugins' => array(),
           'preview_image_style' => 'thumbnail',
           'progress_indicator' => 'throbber',
         ),
@@ -242,7 +243,7 @@ function zee_content_field_default_fields() {
           'size' => 60,
         ),
         'type' => 'taxonomy_autocomplete',
-        'weight' => '-4',
+        'weight' => -4,
       ),
     ),
   );
