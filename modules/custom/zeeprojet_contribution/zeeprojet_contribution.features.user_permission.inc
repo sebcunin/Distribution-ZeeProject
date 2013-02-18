@@ -82,6 +82,15 @@ function zeeprojet_contribution_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: administer files.
+  $permissions['administer files'] = array(
+    'name' => 'administer files',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'file_entity',
+  );
+
   // Exported permission: administer users.
   $permissions['administer users'] = array(
     'name' => 'administer users',
@@ -365,12 +374,24 @@ function zeeprojet_contribution_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: view own files.
+  $permissions['view own files'] = array(
+    'name' => 'view own files',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'contributeur',
+      2 => 'zee_member',
+    ),
+    'module' => 'file_entity',
+  );
+
   // Exported permission: view own private files.
   $permissions['view own private files'] = array(
     'name' => 'view own private files',
     'roles' => array(
       0 => 'administrator',
       1 => 'contributeur',
+      2 => 'zee_member',
     ),
     'module' => 'file_entity',
   );

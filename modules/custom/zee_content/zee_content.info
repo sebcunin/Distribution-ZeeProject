@@ -1,5 +1,5 @@
 name = Zee Content
-description = "Ajouter des vues, des fields"
+description = Ajouter des vues, des fields
 core = 7.x
 package = Zee
 php = 5.2.4
