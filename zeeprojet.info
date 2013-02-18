@@ -41,3 +41,6 @@ dependencies[] = i18n
 dependencies[] = l10n_update
 
 
+dependencies[] = page_title
+dependencies[] = pathauto
+
