@@ -43,5 +43,8 @@ dependencies[] = token
 dependencies[] = page_title
 dependencies[] = pathauto
 
-;dependencies[] = i18n
-;dependencies[] = l10n_update
+
+
+dependencies[] = variable
+dependencies[] = i18n
+dependencies[] = l10n_update
