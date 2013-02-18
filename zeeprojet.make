@@ -59,6 +59,10 @@ libraries[ckeditor][download][type] = 'file'
 libraries[ckeditor][destination] = 'libraries'
 
 
+projects[zeeproject][type] = "profile"
+projects[zeeproject][download][tpe] = "git"
+projects[zeeproject][download][url] = "git@github.com:sebcunin/Distribution-ZeeProject.git"
+projects[zeeproject][download][branch] = "master"
 
 
 
