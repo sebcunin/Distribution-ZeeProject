@@ -21,6 +21,7 @@ dependencies[] = toolbar
 dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
+dependencies[] = rdf
 
 
 ; en plus pour la distribution ZeeProjet
