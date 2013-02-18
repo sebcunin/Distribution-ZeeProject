@@ -40,7 +40,8 @@ projects[] = context
 
 
 ; Mediatheque
-projects[] = media
+projects[media][version] = 2.0-unstable7
+
 projects[] = file_entity
 
 ;localisation
