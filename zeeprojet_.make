@@ -35,6 +35,7 @@ projects[] = rules
 projects[] = transliteration
 projects[] = views
 projects[] = workbench
+projects[] = context
 
 
 ; Mediatheque
