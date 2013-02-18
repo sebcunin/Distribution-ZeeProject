@@ -57,7 +57,8 @@ function zeeprojet_contribution_user_default_permissions() {
     'name' => 'access user profiles',
     'roles' => array(
       0 => 'administrator',
-      1 => 'zee_member',
+      1 => 'contributeur',
+      2 => 'zee_member',
     ),
     'module' => 'user',
   );
