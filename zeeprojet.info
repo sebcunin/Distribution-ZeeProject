@@ -37,8 +37,8 @@ dependencies[] = file_entity
 dependencies[] = transliteration
 dependencies[] = styleguide
 dependencies[] = token
-dependencies[] = i18n
-dependencies[] = l10n_update
+;dependencies[] = i18n
+;dependencies[] = l10n_update
 
 
 ;dependencies[] = page_title
