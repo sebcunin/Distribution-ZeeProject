@@ -72,6 +72,33 @@ function zeeprojet_contribution_user_default_permissions() {
     'module' => 'workbench',
   );
 
+  // Exported permission: administer file types.
+  $permissions['administer file types'] = array(
+    'name' => 'administer file types',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'file_entity',
+  );
+
+  // Exported permission: administer files.
+  $permissions['administer files'] = array(
+    'name' => 'administer files',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'file_entity',
+  );
+
+  // Exported permission: bypass file access.
+  $permissions['bypass file access'] = array(
+    'name' => 'bypass file access',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'file_entity',
+  );
+
   // Exported permission: bypass node access.
   $permissions['bypass node access'] = array(
     'name' => 'bypass node access',
@@ -106,6 +133,8 @@ function zeeprojet_contribution_user_default_permissions() {
     'name' => 'create files',
     'roles' => array(
       0 => 'administrator',
+      1 => 'contributeur',
+      2 => 'zee_member',
     ),
     'module' => 'file_entity',
   );
@@ -142,6 +171,16 @@ function zeeprojet_contribution_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: delete any files.
+  $permissions['delete any files'] = array(
+    'name' => 'delete any files',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'zee_member',
+    ),
+    'module' => 'file_entity',
+  );
+
   // Exported permission: delete any page content.
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
@@ -160,6 +199,16 @@ function zeeprojet_contribution_user_default_permissions() {
       1 => 'contributeur',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: delete own files.
+  $permissions['delete own files'] = array(
+    'name' => 'delete own files',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'contributeur',
+    ),
+    'module' => 'file_entity',
   );
 
   // Exported permission: delete own page content.
@@ -189,6 +238,16 @@ function zeeprojet_contribution_user_default_permissions() {
       1 => 'zee_member',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: edit any files.
+  $permissions['edit any files'] = array(
+    'name' => 'edit any files',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'zee_member',
+    ),
+    'module' => 'file_entity',
   );
 
   // Exported permission: edit any page content.
@@ -227,6 +286,7 @@ function zeeprojet_contribution_user_default_permissions() {
     'name' => 'edit own files',
     'roles' => array(
       0 => 'administrator',
+      1 => 'contributeur',
     ),
     'module' => 'file_entity',
   );
@@ -294,6 +354,17 @@ function zeeprojet_contribution_user_default_permissions() {
     'module' => 'filter',
   );
 
+  // Exported permission: view files.
+  $permissions['view files'] = array(
+    'name' => 'view files',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'anonymous user',
+      2 => 'authenticated user',
+    ),
+    'module' => 'file_entity',
+  );
+
   // Exported permission: view media.
   $permissions['view media'] = array(
     'name' => 'view media',
@@ -303,6 +374,24 @@ function zeeprojet_contribution_user_default_permissions() {
       2 => 'authenticated user',
     ),
     'module' => 'media',
+  );
+
+  // Exported permission: view own files.
+  $permissions['view own files'] = array(
+    'name' => 'view own files',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'file_entity',
+  );
+
+  // Exported permission: view own private files.
+  $permissions['view own private files'] = array(
+    'name' => 'view own private files',
+    'roles' => array(
+      0 => 'administrator',
+    ),
+    'module' => 'file_entity',
   );
 
   // Exported permission: view own unpublished content.
