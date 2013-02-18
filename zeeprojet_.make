@@ -21,6 +21,7 @@ projects[] = entity
 
 ; indiquer la version 1 et pas la v.2 (beta)
 projects[features][version] = 1.0
+projects[] = diff 
 
 projects[] = token
 projects[] = pathauto
