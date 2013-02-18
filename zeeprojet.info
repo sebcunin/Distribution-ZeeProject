@@ -34,5 +34,6 @@ dependencies[] = media
 dependencies[] = file_entity
 dependencies[] = transliteration
 dependencies[] = styleguide
+dependencies[] = token
 
 
