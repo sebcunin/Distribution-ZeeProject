@@ -30,7 +30,6 @@ projects[] = panels
 projects[] = page_title
 projects[] = styleguide
 
-projects[] = omega_tools
 
 projects[] = rules
 projects[] = transliteration
