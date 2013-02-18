@@ -45,6 +45,6 @@ dependencies[] = pathauto
 
 
 
-dependencies[] = variable
-dependencies[] = i18n
-dependencies[] = l10n_update
+;dependencies[] = variable
+;dependencies[] = i18n
+;dependencies[] = l10n_update
