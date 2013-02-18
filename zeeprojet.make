@@ -58,11 +58,11 @@ libraries[ckeditor][download][type] = 'file'
 ; sites/all/libraries/jquery_cycle/
 libraries[ckeditor][destination] = 'libraries'
 
-
-projects[zeeprojet][type] = "profile"
-projects[zeeprojet][download][tpe] = "git"
-projects[zeeprojet][download][url] = "git@github.com:sebcunin/Distribution-ZeeProject.git"
-projects[zeeprojet][download][branch] = "develop"
+; Distribution
+;projects[zeeprojet][type] = "profile"
+;projects[zeeprojet][download][tpe] = "git"
+;projects[zeeprojet][download][url] = "git@github.com:sebcunin/Distribution-ZeeProject.git"
+;projects[zeeprojet][download][branch] = "develop"
 
 
 
