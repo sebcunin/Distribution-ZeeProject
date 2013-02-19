@@ -66,6 +66,13 @@ dependencies[] = context
 dependencies[] = role_delegation
 
 
+; Il permet de switcher de theme
+; suivant des cas bien précis comme une url
+; dans notre case user/ avec le thème d'adminstration 
+dependencies[] = themekey
+dependencies[] = strongarm
+
+
 
 ; Information added by drush on 2013-02-18
 version = "develop-dev"

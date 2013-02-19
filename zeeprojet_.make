@@ -49,9 +49,9 @@ projects[] = variable
 projects[] = l10n_update
 
 
-
 projects[] = role_delegation
 ; Themes
+;
 projects[] = zen
 
 
@@ -74,5 +74,7 @@ projects[zeeprojet][download][branch] = "develop"
 
 
 
+projects[themekey][version] = 2.3
+projects[] = strongarm
 
 
