@@ -1,0 +1,9 @@
+name = Zeeprojet Debut
+description = Ajout de paramètres pour la distribution ZeeProjet
+core = 7.x
+package = Zee
+php = 5.2.4
+dependencies[] = features
+features[features_api][] = api:1
+features[user_role][] = contributeur
+features[user_role][] = zee_member
