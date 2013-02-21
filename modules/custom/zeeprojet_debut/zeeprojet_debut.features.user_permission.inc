@@ -128,5 +128,16 @@ function zeeprojet_debut_user_default_permissions() {
     'module' => 'webform',
   );
 
+  // Exported permission: translate content.
+  $permissions['translate content'] = array(
+    'name' => 'translate content',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'contributeur',
+      2 => 'zee_member',
+    ),
+    'module' => 'translation',
+  );
+
   return $permissions;
 }
