@@ -21,6 +21,7 @@ projects[] = entity
 
 ; indiquer la version 1 et pas la v.2 (beta)
 projects[features][version] = 1.0
+projects[] = diff 
 
 projects[] = token
 projects[] = pathauto
@@ -29,25 +30,28 @@ projects[] = panels
 projects[] = page_title
 projects[] = styleguide
 
-projects[] = omega_tools
 
 projects[] = rules
 projects[] = transliteration
 projects[] = views
 projects[] = workbench
+projects[] = context
 
 
 ; Mediatheque
-projects[] = media
+projects[media][version] = 2.0-unstable7
+
 projects[] = file_entity
-projects[] = wysiwyg
 
 ;localisation
 projects[] = i18n
+projects[] = variable
 projects[] = l10n_update
 
 
+projects[] = role_delegation
 ; Themes
+;
 projects[] = zen
 
 
@@ -58,17 +62,19 @@ libraries[ckeditor][download][type] = 'file'
 ; sites/all/libraries/jquery_cycle/
 libraries[ckeditor][destination] = 'libraries'
 
-
-projects[zeeproject][type] = "profile"
-projects[zeeproject][download][tpe] = "git"
-projects[zeeproject][download][url] = "git@github.com:sebcunin/Distribution-ZeeProject.git"
-projects[zeeproject][download][branch] = "master"
-
-
+; Distribution
+projects[zeeprojet][type] = "profile"
+projects[zeeprojet][download][tpe] = "git"
+projects[zeeprojet][download][url] = "git@github.com:sebcunin/Distribution-ZeeProject.git"
+projects[zeeprojet][download][branch] = "develop"
 
 
 
 
 
+
+
+projects[themekey][version] = 2.3
+projects[] = strongarm
 
 
