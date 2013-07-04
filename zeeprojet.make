@@ -14,7 +14,7 @@ projects[] = advanced_help
 projects[] = ctools
 projects[] = ckeditor
 projects[] = devel
-projects[] = ds
+;projects[] = ds
 projects[] = entity
 
 
