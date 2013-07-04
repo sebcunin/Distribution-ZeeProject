@@ -1,11 +1,6 @@
-# Distribution ZeeProject
+# Drush Make ZeeProject
 
-
-
-
-
-Ajout d'une nouvelle branche `develop`, utilisé dans les phases de dévelopmment de la
-distribution
+Ce repo git contient les fichiers permettant de faire un `drush make`
 
 
 ## Features
