@@ -73,10 +73,10 @@ libraries[ckeditor][download][type] = 'file'
 libraries[ckeditor][destination] = 'libraries'
 
 ; Distribution
-projects[zeeprojet][type] = "profile"
-projects[zeeprojet][download][tpe] = "git"
-projects[zeeprojet][download][url] = "git@github.com:sebcunin/Distribution-ZeeProject.git"
-projects[zeeprojet][download][branch] = "develop"
+;projects[zeeprojet][type] = "profile"
+;projects[zeeprojet][download][tpe] = "git"
+;projects[zeeprojet][download][url] = "git@github.com:sebcunin/Distribution-ZeeProject.git"
+;projects[zeeprojet][download][branch] = "develop"
 
 
 
@@ -88,7 +88,11 @@ projects[] = strongarm
 
 
 
-
+;================================;
+;================================;
+;====== CHOSEN  PLUGIN===========;
+;================================;
+;================================;
 libraries[chosen][download][url]  = 'http://chosen.getharvest.com.s3.amazonaws.com/chosen_v0.11.1.zip'
 libraries[chosen][download][type] = 'file'
 ; sites/all/libraries/chosen/
