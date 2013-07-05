@@ -2,5 +2,6 @@
 
 ## Ajouts
 
-- Ajout des moidues (features) présents dans la distribution
+- Ajout des modules (features) présents dans la distribution
 ZeestEssentials
+- Faire le nettoyage
