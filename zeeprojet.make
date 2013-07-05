@@ -42,6 +42,7 @@ projects[] = styleguide
 
 
 projects[] = workbench
+projects[] = role_delagation
 projects[] = context
 
 ; Mediatheque
@@ -58,6 +59,7 @@ projects[] = l10n_update
 ; Themes
 ;
 projects[] = zen
+;http://github.com/ZeeAgency/Zee-Drupal-Theme
 
 
 ; Contribution des nodes
