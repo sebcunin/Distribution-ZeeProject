@@ -25,10 +25,8 @@ projects[zeeprojet_debut][download][url]  = 'git://github.com/sebcunin/zeeprojet
 projects[zeeprojet_debut][subdir]  = 'custom'
 
 
-
-
-
+;Starter Kit Theme Zee
 projects[zee][type] = theme
 projects[zee][download][type] = 'git'
-;https://github.com/ZeeAgency/Zee-Drupal-Theme
 projects[zee][download][url]  = 'git://github.com/ZeeAgency/Zee-Drupal-Theme.git'
+projects[zee][branch]  = 'master'
