@@ -4,7 +4,7 @@ Ce repo git contient les fichiers permettant de faire un `drush make`
 
 pour la création de la distribution
 ```bash
-drush make zeeprojet.make
+drush make zeeprojet.make docroot
 ```
 
 ## Features
