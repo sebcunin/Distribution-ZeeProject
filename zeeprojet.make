@@ -42,7 +42,7 @@ projects[] = styleguide
 
 
 projects[] = workbench
-projects[] = role_delagation
+projects[] = role_delegation
 projects[] = context
 
 ; Mediatheque
