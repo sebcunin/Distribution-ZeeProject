@@ -5,80 +5,106 @@ api   = "2"
 ; Get drupal core
 projects[] = drupal
 
-; Modules obligatoires pour tout projet Drupal
+;============================;
+;============================;
+;=====     Modules    =======;
+;=====   Obligaatoies   =====;
+;============================;
+;============================;
 projects[] = views
 projects[] = rules
 projects[] = advanced_help
 projects[] = ctools
-
+projects[] = libraries
 projects[] = entity
 projects[] = entityreference
 
 
-; Gestion des urls et des redirections
+;============================;
+;============================;
+;=====     Modules    =======;
+;=====      URLs      =======;
+;============================;
+;============================;
 projects[] = globalredirect
 projects[] = redirect
 projects[] = path_redirect_import
-; Réécriture des urls et suppression des accents (french)
 projects[] = pathauto
 projects[] = transliteration
 
-; Modules pour le dévelopemment
+;============================;
+;============================;
+;=====     Modules    =======;
+;===== Développement  =======;
+;============================;
+;============================;
 projects[] = devel
+projects[] = diff
 projects[] = environment_indicator
-
 ; indiquer la version 1 et pas la v.2 (beta)
 projects[features][version] = 1.0
-projects[] = diff
+projects[] = module_filter
+
+
 
 projects[] = token
-
-projects[] = module_filter
 projects[] = panels
 projects[] = page_title
 projects[] = styleguide
 
 
 
-
+;============================;
+;============================;
+;=====     Modules    =======;
+;===== Contribution   =======;
+;============================;
+;============================;
 projects[] = workbench
 projects[] = role_delegation
-projects[] = context
 
-; Mediatheque
+
+;============================;
+;============================;
+;=====   Médiathèque  =======;
+;============================;
+;============================;
 projects[media][version] = 2.0-unstable7
-
+projects[] = manualcrop
 projects[] = file_entity
 
-;localisation
+;============================;
+;============================;
+;=====   Localisation  ======;
+;============================;
+;============================;
 projects[] = i18n
 projects[] = variable
 projects[] = l10n_update
 
-
-; Themes
+;=============================;
+;=============================;
+;====  Starter Kit Zee  ======;
+;=============================;
+;=============================;
 ;
-projects[] = zen
 ;http://github.com/ZeeAgency/Zee-Drupal-Theme
+projects[] = context
+projects[] = jquery_update
+projects[] = jquery_plugin
 
-
-; Contribution des nodes
+;=============================;
+;=============================;
+;====  Tool Authoring   ======;
+;=============================;
+;=============================;
 projets[] = wysiwyg
 projets[] = wysiwyg_template
+projets[] = ckeditor_link
 ; Librairie ckeditor la version 3.6.6
 libraries[ckeditor][download][url] = 'http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip'
 libraries[ckeditor][download][type] = 'file'
-
-; sites/all/libraries/ckeditor/
 libraries[ckeditor][destination] = 'libraries'
-
-; Distribution
-;projects[zeeprojet][type] = "profile"
-;projects[zeeprojet][download][tpe] = "git"
-;projects[zeeprojet][download][url] = "git@github.com:sebcunin/Distribution-ZeeProject.git"
-;projects[zeeprojet][download][branch] = "develop"
-
-
 
 projects[themekey][version] = 2.3
 projects[] = strongarm
