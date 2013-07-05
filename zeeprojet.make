@@ -150,12 +150,16 @@ projects[] = mailsystem
 projects[] = mimemail
 
 
-
-
 projects[] = colorbox
 projects[] = colorbox_node
-
 libraries[colorbox][download][url]  = 'https://github.com/jackmoore/colorbox/archive/master.zip'
 libraries[colorbox][download][type] = 'file'
-; sites/all/libraries/chosen/
 libraries[colorbox][destination]    = 'libraries'
+
+;TODO 
+
+
+projects[zee_content][download][url]  = 'https://github.com/sebcunin/zee_content/archive/master.zip'
+projects[zee_content][type] = 'git'
+projects[zee_content][subdir] = 'custom'
+
