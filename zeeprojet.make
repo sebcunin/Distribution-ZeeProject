@@ -98,9 +98,9 @@ projects[] = jquery_plugin
 ;====  Tool Authoring   ======;
 ;=============================;
 ;=============================;
-projets[] = wysiwyg
-projets[] = wysiwyg_template
-projets[] = ckeditor_link
+projects[] = wysiwyg
+projects[] = wysiwyg_template
+projects[] = ckeditor_link
 ; Librairie ckeditor la version 3.6.6
 libraries[ckeditor][download][url] = 'http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip'
 libraries[ckeditor][download][type] = 'file'
@@ -124,7 +124,7 @@ libraries[chosen][download][type] = 'file'
 ; sites/all/libraries/chosen/
 libraries[chosen][destination]    = 'libraries'
 ;Le module Chosen
-projets[] = chosen
+projects[] = chosen
 
 
 
@@ -135,3 +135,27 @@ projets[] = chosen
 ; Localisation de l'interface de Drupal
 ;http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.22.fr.po
 
+
+
+
+
+;================================;
+;================================;
+;====== New Modules   ===========;
+;================================;
+;================================;
+projects[] = webform
+projects[] = webform_ajax
+projects[] = mailsystem
+projects[] = mimemail
+
+
+
+
+projects[] = colorbox
+projects[] = colorbox_node
+
+libraries[colorbox][download][url]  = 'https://github.com/jackmoore/colorbox/archive/master.zip'
+libraries[colorbox][download][type] = 'file'
+; sites/all/libraries/chosen/
+libraries[colorbox][destination]    = 'libraries'
