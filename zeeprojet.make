@@ -186,6 +186,6 @@ projects[zeeprojet_debut][subdir]  = 'custom'
 projects[zee][type] = theme
 projects[zee][download][type] = 'git'
 projects[zee][download][url]  = 'git://github.com/ZeeAgency/Zee-Drupal-Theme.git'
-projects[zee][branch]  = 'master'
+projects[zee][download][branch]  = 'master'
 
 
