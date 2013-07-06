@@ -30,3 +30,12 @@ projects[zee][type] = theme
 projects[zee][download][type] = 'git'
 projects[zee][download][url]  = 'git://github.com/ZeeAgency/Zee-Drupal-Theme.git'
 projects[zee][branch]  = 'master'
+
+
+
+
+
+;Ajout du profil Zee Essentials
+projects[zee_essentials][type] = profile
+projects[zee_essentials][download][type] = 'git'
+projects[zee_essentials][download][url] = 'git://github.com/sebcunin/zee_essentials.git'
