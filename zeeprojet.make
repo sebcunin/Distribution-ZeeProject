@@ -120,7 +120,7 @@ projects[] = strongarm
 ;====== CHOSEN  PLUGIN===========;
 ;================================;
 ;================================;
-libraries[chosen][download][url]  = 'http://chosen.getharvest.com.s3.amazonaws.com/chosen_v0.11.1.zip'
+libraries[chosen][download][url]  = 'http://chosen.getharvest.com.s3.amazonaws.com/chosen_master.zip'
 libraries[chosen][download][type] = 'file'
 ; sites/all/libraries/chosen/
 libraries[chosen][destination]    = 'libraries'
