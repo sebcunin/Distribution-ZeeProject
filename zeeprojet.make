@@ -2,8 +2,10 @@ core  = "7.x"
 api   = "2"
 
 ; Get drupal core
-projects[] = drupal
+;projects[] = drupal
 
+
+projects[drupal][l10_path] = http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.22.fr.po
 ;============================;
 ;============================;
 ;=====     Modules    =======;
