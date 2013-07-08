@@ -19,6 +19,9 @@ projects[] = ctools
 projects[] = libraries
 projects[] = entity
 projects[] = entityreference
+projects[] = panels
+projects[] = token
+projects[] = page_title
 
 
 ;============================;
