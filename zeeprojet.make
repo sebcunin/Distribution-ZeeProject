@@ -47,11 +47,14 @@ projects[features][version] = 1.0
 projects[] = module_filter
 
 
+;============================;
+;============================;
+;=====     Modules    =======;
+;===== Types Fields   =======;
+;============================;
+;============================;
 
-projects[] = token
-projects[] = panels
-projects[] = page_title
-projects[] = styleguide
+projects[] = field_collection
 
 
 
@@ -164,23 +167,23 @@ libraries[colorbox][destination]    = 'libraries'
 ;================================;
 ;================================;
 ;ZeeContent
-projects[zee_content][type] = module
-projects[zee_content][download][type] = 'git'
-projects[zee_content][download][url]  = 'git://github.com/sebcunin/zee_content.git'
-projects[zee_content][subdir]  = 'custom'
+;projects[zee_content][type] = module
+;projects[zee_content][download][type] = 'git'
+;projects[zee_content][download][url]  = 'git://github.com/sebcunin/zee_content.git'
+;projects[zee_content][subdir]  = 'custom'
 
 ; ZeeProjet Contribution
-projects[zeeprojet_contribution][type] = module
-projects[zeeprojet_contribution][download][type] = 'git'
-projects[zeeprojet_contribution][download][url]  = 'git://github.com/sebcunin/zeeprojet_contribution.git'
-projects[zeeprojet_contribution][subdir]  = 'custom'
+;projects[zeeprojet_contribution][type] = module
+;projects[zeeprojet_contribution][download][type] = 'git'
+;projects[zeeprojet_contribution][download][url]  = 'git://github.com/sebcunin/zeeprojet_contribution.git'
+;projects[zeeprojet_contribution][subdir]  = 'custom'
 
 
 ;ZeeProjet Debut
-projects[zeeprojet_debut][type] = module
-projects[zeeprojet_debut][download][type] = 'git'
-projects[zeeprojet_debut][download][url]  = 'git://github.com/sebcunin/zeeprojet_debut.git'
-projects[zeeprojet_debut][subdir]  = 'custom'
+;projects[zeeprojet_debut][type] = module
+;projects[zeeprojet_debut][download][type] = 'git'
+;projects[zeeprojet_debut][download][url]  = 'git://github.com/sebcunin/zeeprojet_debut.git'
+;projects[zeeprojet_debut][subdir]  = 'custom'
 
 
 ;Starter Kit Theme Zee
@@ -196,3 +199,4 @@ projects[zee][download][branch]  = 'master'
 projects[zee_essentials][type] = profile
 projects[zee_essentials][download][type] = 'git'
 projects[zee_essentials][download][url] = 'git://github.com/sebcunin/zee_essentials.git'
+
