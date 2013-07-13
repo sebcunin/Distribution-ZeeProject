@@ -2,6 +2,9 @@
 
 echo "Installation d'un drupal à la sauce ZeeAgency"
 
+# TODO: demander le login
+# TODO: demander le mot de passe
+# TODO: 
 
 
 
@@ -13,6 +16,8 @@ read -p 'Définir le répertoire : ' docroot
 
 read -p 'Definir le profil: ' profile
 read -p 'Nom de la BDD : ' bdd
+read -p 'Username sur la BDD : ' username
+read -p 'Mot de passe sur la BDD : ' mdp
 drush make zeeprojet.make $docroot
 #read -p 'Définir la langue par défaut :' langue
 ##drush make --translations=$langue zeeprojet.make $docroot
@@ -26,10 +31,10 @@ curl -O http://raw.github.com/sebcunin/zee_htaccess/master/.htaccess
 
 #Drush Site Install
 #drush si --db-url=mysql://root:seb@localhost/test_distro  --db-su=admin --db-su-pw=admin --site-name="Projet ZeeAgency"  --clean-url=0 --locale=$langue
-drush si $profile --db-url=mysql://root:seb@localhost/$bdd  --site-name="Projet ZeeAgency"  --clean-url=0 --locale=$langue
+drush si $profile --db-url=mysql://$username:$mdp@localhost/$bdd  --site-name="Projet ZeeAgency"  --clean-url=0 --locale=$langue
 
 
-# Donner tous les droits sur le répertoire où seront déposer
+# Donner tous les droits sur le répertoire où seront déposé les fichiers média.
 # les fichiers uploadés.
 echo "Avoir les droits sudo pour chaner le chmod sur le répertoire sites/default/files"
 sudo chmod -R 777 sites/default/files
