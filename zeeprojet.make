@@ -57,7 +57,8 @@ projects[] = module_filter
 ;============================;
 ;============================;
 
-projects[] = field_collection
+;projects[] = field_collection
+projects[] = eck
 
 
 
@@ -76,7 +77,7 @@ projects[] = role_delegation
 ;=====   Médiathèque  =======;
 ;============================;
 ;============================;
-projects[media][version] = 2.0-unstable7
+projects[] = media
 projects[] = manualcrop
 projects[] = file_entity
 
