@@ -76,7 +76,7 @@ projects[] = role_delegation
 ;=====   Médiathèque  =======;
 ;============================;
 ;============================;
-projects[media][version] = 2.0-unstable7
+projects[] = medias
 projects[] = manualcrop
 projects[] = file_entity
 
@@ -87,7 +87,7 @@ projects[] = file_entity
 ;============================;
 projects[] = i18n
 projects[] = variable
-projects[] = l10n_update
+;projects[] = l10n_update
 
 ;=============================;
 ;=============================;
@@ -109,11 +109,9 @@ projects[] = wysiwyg
 projects[] = wysiwyg_template
 projects[] = ckeditor_link
 ; Librairie ckeditor la version 3.6.6
-libraries[ckeditor][download][url] = 'http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip'
-libraries[ckeditor][download][type] = 'file'
-libraries[ckeditor][destination] = 'libraries'
+libraries[] = ckeditor
 
-projects[themekey][version] = 2.3
+projects[] = themekey
 projects[] = strongarm
 
 
@@ -156,12 +154,6 @@ projects[] = webform_ajax
 projects[] = mailsystem
 projects[] = mimemail
 
-
-projects[] = colorbox
-projects[] = colorbox_node
-libraries[colorbox][download][url]  = 'https://github.com/jackmoore/colorbox/archive/master.zip'
-libraries[colorbox][download][type] = 'file'
-libraries[colorbox][destination]    = 'libraries'
 
 
 ;================================;
