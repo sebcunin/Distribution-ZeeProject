@@ -76,7 +76,7 @@ projects[] = role_delegation
 ;=====   Médiathèque  =======;
 ;============================;
 ;============================;
-projects[] = medias
+projects[] = media
 projects[] = manualcrop
 projects[] = file_entity
 
