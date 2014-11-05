@@ -48,6 +48,7 @@ projects[] = environment_indicator
 ; indiquer la version 1 et pas la v.2 (beta)
 projects[features][version] = 1.0
 projects[] = module_filter
+projects[] = backup_migrate
 
 
 ;============================;
@@ -88,7 +89,7 @@ projects[] = file_entity
 ;============================;
 projects[] = i18n
 projects[] = variable
-projects[] = l10n_update
+;projects[] = l10n_update
 
 ;=============================;
 ;=============================;
@@ -110,11 +111,9 @@ projects[] = wysiwyg
 projects[] = wysiwyg_template
 projects[] = ckeditor_link
 ; Librairie ckeditor la version 3.6.6
-libraries[ckeditor][download][url] = 'http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6/ckeditor_3.6.6.zip'
-libraries[ckeditor][download][type] = 'file'
-libraries[ckeditor][destination] = 'libraries'
+libraries[] = ckeditor
 
-projects[themekey][version] = 2.3
+projects[] = themekey
 projects[] = strongarm
 
 
@@ -157,12 +156,6 @@ projects[] = webform_ajax
 projects[] = mailsystem
 projects[] = mimemail
 
-
-projects[] = colorbox
-projects[] = colorbox_node
-libraries[colorbox][download][url]  = 'https://github.com/jackmoore/colorbox/archive/master.zip'
-libraries[colorbox][download][type] = 'file'
-libraries[colorbox][destination]    = 'libraries'
 
 
 ;================================;
